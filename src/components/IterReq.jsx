@@ -7,11 +7,11 @@ import { useEffect } from "react"
 
 const IterReq = () => {
     useEffect(() => {
-        localStorage.setItem("dataIter", JSON.stringify(iterRequerimientos))
+        localStorage.setItem("data-iter", JSON.stringify(iterRequerimientos))
     })
 
     function getDataFromLocalStorage() {
-        const dataReq = localStorage.getItem("dataIter")
+        const dataReq = localStorage.getItem("data-iter")
         if (dataReq) {
             return JSON.parse(dataReq)
         } else {
@@ -96,7 +96,7 @@ const IterReq = () => {
         setDatos("Añadir datos")
         setAcceptance(req.acceptance)
         setRequirements(req.requirements)
-        setReqGlobal(req.state)
+        setReqGlobal(req.reqGlobal)
     }
 
     function cancelEditHandler() {

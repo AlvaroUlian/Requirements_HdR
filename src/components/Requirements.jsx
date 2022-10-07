@@ -38,10 +38,6 @@ const Requirements = () => {
         setRequerimientos(filteredreq)
     }
 
-    // fungsi untuk memasukan data dalam field untuk pengecekan form
-    
-
-    // Fungsi untuk mengerate data key
     function generateKey() {
         return Date.now()
     }

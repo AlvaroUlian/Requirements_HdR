@@ -9,7 +9,7 @@ const DataTable_iter = ({ iterRequerimientos, deleteHandler, editHandler }) => {
             <tr>
                 <td>{iterRequerimientos.requirements}</td>
                 <td>{iterRequerimientos.acceptance}</td>
-                <td>{iterRequerimientos.state}</td>
+                <td>{iterRequerimientos.reqGlobal}</td>
                 <td style = {{textAlign: 'center'}}>
                     <Button
                         variant="outline-success"

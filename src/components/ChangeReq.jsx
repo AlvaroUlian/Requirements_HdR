@@ -5,8 +5,8 @@ function BasicExample() {
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th style={{width: 10}}>#</th>
-          <th style={{width: 90}}>%</th>
+          <th style={{width: 10 }}>#</th>
+          <th style={{width: 90 }}>%</th>
         </tr>
       </thead>
       <tbody>
